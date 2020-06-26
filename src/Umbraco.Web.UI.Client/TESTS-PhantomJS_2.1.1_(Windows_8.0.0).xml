@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Windows 8.0.0)" package="" timestamp="2020-06-04T06:38:46" id="0" hostname="DESKTOP-O6T9ANE" tests="184" errors="0" failures="0" time="1.035">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="create content dialog shows available child document types for the given node" time="0.05" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog creates content directly when there are no blueprints" time="0.01" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog shows list of blueprints when there are some" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog creates blueprint when selected" time="0.01" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog skips selection and creates first blueprint when configured to" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog allows blank to be selected" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog creates blank when selected" time="0.009" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="create content dialog hides blank when configured to" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).create content dialog"/>
+  <testcase name="edit media controller tests media edit controller init it should have an media object" time="0.017" classname="PhantomJS_2_1_1_(Windows_8_0_0).edit media controller tests media edit controller init"/>
+  <testcase name="edit media controller tests media edit controller init it should have an apps collection" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).edit media controller tests media edit controller init"/>
+  <testcase name="edit media controller tests media edit controller init it should have added an info app" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).edit media controller tests media edit controller init"/>
+  <testcase name="Content picker controller tests content edit controller save and publish should define the default properties on construction" time="0.017" classname="PhantomJS_2_1_1_(Windows_8_0_0).Content picker controller tests content edit controller save and publish"/>
+  <testcase name="Content picker controller tests content edit controller save and publish should populate scope.renderModel" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).Content picker controller tests content edit controller save and publish"/>
+  <testcase name="Content picker controller tests content edit controller save and publish Each rendermodel item should contain name, id and icon" time="0.011" classname="PhantomJS_2_1_1_(Windows_8_0_0).Content picker controller tests content edit controller save and publish"/>
+  <testcase name="Content picker controller tests content edit controller save and publish Removing an item should update renderModel, ids and model.value" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).Content picker controller tests content edit controller save and publish"/>
+  <testcase name="Content picker controller tests content edit controller save and publish Adding an item should update renderModel, ids and model.value" time="0.009" classname="PhantomJS_2_1_1_(Windows_8_0_0).Content picker controller tests content edit controller save and publish"/>
+  <testcase name="Content picker controller tests content edit controller save and publish Adding a duplicate item should note update renderModel, ids and model.value" time="0.01" classname="PhantomJS_2_1_1_(Windows_8_0_0).Content picker controller tests content edit controller save and publish"/>
+  <testcase name="Drop down controller tests initialization should define the default properties on construction" time="0.01" classname="PhantomJS_2_1_1_(Windows_8_0_0).Drop down controller tests initialization"/>
+  <testcase name="Drop down controller tests initialization should convert simple array to dictionary" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).Drop down controller tests initialization"/>
+  <testcase name="Drop down controller tests initialization should allow an existing valid dictionary" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).Drop down controller tests initialization"/>
+  <testcase name="Drop down controller tests initialization should not allow a non-array or non-dictionary" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).Drop down controller tests initialization"/>
+  <testcase name="RTE controller tests initialization should define the default properties on construction" time="0.012" classname="PhantomJS_2_1_1_(Windows_8_0_0).RTE controller tests initialization"/>
+  <testcase name="templates editor controller has ace editor" time="0.01" classname="PhantomJS_2_1_1_(Windows_8_0_0).templates editor controller"/>
+  <testcase name="valEmail directive tests EMAIL_REGEXP should validate email" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).valEmail directive tests EMAIL_REGEXP"/>
+  <testcase name="truncate filter empty string as input is expected to give an empty string" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter null as input is expected to give an empty string" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter undefined as input is expected to give an empty string" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter null as noOfChars to result in 'test'" time="0.009" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter undefined as noOfChars to result in 'test'" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter null as appendDots to behave as false" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'test' to be truncated as 'test', when noOfChars=5, and appendDots=true" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'test ' to be truncated as 'test…', when noOfChars=4, and appendDots=true" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'test a long text with space' to be truncated as 'test …', when noOfChars=5, and appendDots=true" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'scenarios is a long word' to be truncated as 'scena…', when noOfChars=5, and appendDots=true" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'scenarios is a long word' to be truncated as 'scenarios …', when noOfChars=10, and appendDots=true" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'test' to be truncated as 'test', when noOfChars=5, and appendDots=false" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'test a long text with space' to be truncated as 'test ', when noOfChars=5, and appendDots=false" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'scenarios is a long word' to be truncated as 'scena', when noOfChars=5, and appendDots=false" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'scenarios is a long word' to be truncated as 'scenarios ', when noOfChars=10, and appendDots=false" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'test' to be truncated as 'test', when wordwise=false, and max=20, and tail=..." time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="truncate filter Expects 'LoremIpsumLoremIpsumLoremIpsum' to be truncated as 'LoremIpsumLoremIpsum…', when wordwise=false, and max=20, and tail=null" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).truncate filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result='a, b, c'" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result='a b c'" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result='abc'" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result=''" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result=''" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result=', , '" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected result='abc'" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected error.  Input='test'" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected error.  Input='null'" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="umbCmsJoinArray filter Blackbox tests with expected error.  Input='undefined'" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbCmsJoinArray filter"/>
+  <testcase name="appState tests Editor state Can set" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Editor state"/>
+  <testcase name="appState tests Editor state Can reset" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Editor state"/>
+  <testcase name="appState tests Editor state Throws when setting current" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Editor state"/>
+  <testcase name="appState tests Global state Can get/set state" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Global state"/>
+  <testcase name="appState tests Global state Throws when invalid key" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Global state"/>
+  <testcase name="appState tests Section state Can get/set state" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Section state"/>
+  <testcase name="appState tests Section state Throws when invalid key" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Section state"/>
+  <testcase name="appState tests Tree state Can get/set state" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Tree state"/>
+  <testcase name="appState tests Tree state Throws when invalid key" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Tree state"/>
+  <testcase name="appState tests Menu state Can get/set state" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Menu state"/>
+  <testcase name="appState tests Menu state Throws when invalid key" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).appState tests Menu state"/>
+  <testcase name="Assets service tests Loading js assets Loads a javascript file" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).Assets service tests Loading js assets"/>
+  <testcase name="contentEditingHelper tests handles http validation errors handles validation errors for 400 results" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handles http validation errors"/>
+  <testcase name="contentEditingHelper tests handles http validation errors does not handle validation errors that are not 400" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handles http validation errors"/>
+  <testcase name="contentEditingHelper tests handles http validation errors does not handle validation errors that are 400 without model state" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handles http validation errors"/>
+  <testcase name="contentEditingHelper tests handling validation errors adds a field level server validation error when name is invalid" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handling validation errors"/>
+  <testcase name="contentEditingHelper tests handling validation errors adds a property level server validation error when a property is invalid" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handling validation errors"/>
+  <testcase name="contentEditingHelper tests handling validation errors adds a property level server validation error with a specific field when a property is invalid" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handling validation errors"/>
+  <testcase name="contentEditingHelper tests handling validation errors adds a multiple property and field level server validation errors when they are invalid" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests handling validation errors"/>
+  <testcase name="contentEditingHelper tests redirecting behavior after saving content does not redirect when editing existing content" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests redirecting behavior after saving content"/>
+  <testcase name="contentEditingHelper tests redirecting behavior after saving content does a redirect when creating content with a valid name" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests redirecting behavior after saving content"/>
+  <testcase name="contentEditingHelper tests redirecting behavior after saving content does not redirect when creating content with an invalid id" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests redirecting behavior after saving content"/>
+  <testcase name="contentEditingHelper tests wires up property values after saving does not update un-changed values" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).contentEditingHelper tests wires up property values after saving"/>
+  <testcase name="content factory tests global content factory crud should return a content object, given an id" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).content factory tests global content factory crud"/>
+  <testcase name="content factory tests global content factory crud should return a all children collection given an id" time="0.212" classname="PhantomJS_2_1_1_(Windows_8_0_0).content factory tests global content factory crud"/>
+  <testcase name="content factory tests global content factory crud should return paged children collection given an id" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).content factory tests global content factory crud"/>
+  <testcase name="content type factory tests global content type factory crud should return a allowed content type collection given a document id" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).content type factory tests global content type factory crud"/>
+  <testcase name="date helper tests converting to local moments converts from a positive offset" time="0.009" classname="PhantomJS_2_1_1_(Windows_8_0_0).date helper tests converting to local moments"/>
+  <testcase name="date helper tests converting to local moments converts from a negataive offset" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).date helper tests converting to local moments"/>
+  <testcase name="date helper tests converting to server strings converts to a positive offset" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).date helper tests converting to server strings"/>
+  <testcase name="date helper tests converting to server strings converts from a negataive offset" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).date helper tests converting to server strings"/>
+  <testcase name="angular event tests event handling will handle one non async process" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).angular event tests event handling"/>
+  <testcase name="angular event tests event handling will handle 2 non async process" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).angular event tests event handling"/>
+  <testcase name="angular event tests event handling will handle one async process" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).angular event tests event handling"/>
+  <testcase name="angular event tests event handling POC will wait to execute after all handlers" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).angular event tests event handling"/>
+  <testcase name="file manager tests file management adding a file adds to the collection" time="0.012" classname="PhantomJS_2_1_1_(Windows_8_0_0).file manager tests file management"/>
+  <testcase name="file manager tests file management adding a file with the same property id replaces the existing one" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).file manager tests file management"/>
+  <testcase name="file manager tests file management clears all files" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).file manager tests file management"/>
+  <testcase name="icon helper tests converting icon formats to Belle formats detects a file based icon" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).icon helper tests converting icon formats to Belle formats"/>
+  <testcase name="icon helper tests converting icon formats to Belle formats detects a legacy icon" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).icon helper tests converting icon formats to Belle formats"/>
+  <testcase name="icon helper tests converting icon formats to Belle formats converts from legacy icon" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).icon helper tests converting icon formats to Belle formats"/>
+  <testcase name="keyboard service tests Detecting key combinations Detects ctrl+s" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).keyboard service tests Detecting key combinations"/>
+  <testcase name="list view helper tests getButtonPermissions should update the currentIdsWithPermissions dictionary" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).list view helper tests getButtonPermissions"/>
+  <testcase name="list view helper tests getButtonPermissions returns button permissions" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).list view helper tests getButtonPermissions"/>
+  <testcase name="macro service tests generates macro syntax can parse syntax for macros" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can parse syntax for macros with aliases containing dots" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can parse syntax for macros when macroAlias is not the first parameter" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can parse syntax for macros with aliases containing whitespace and other chars" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can parse syntax for macros with body" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can generate syntax for macros" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can generate syntax for macros with no params" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can generate syntax for MVC" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="macro service tests generates macro syntax can generate syntax for MVC with no params" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).macro service tests generates macro syntax"/>
+  <testcase name="mediaHelper service tests formatFileTypes will ignore any empty strings passed as arguments" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).mediaHelper service tests formatFileTypes"/>
+  <testcase name="mediaHelper service tests formatFileTypes includes prefixed dot when formatting" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).mediaHelper service tests formatFileTypes"/>
+  <testcase name="navigation services tests determine if route change causes navigation navigates when parameters added" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).navigation services tests determine if route change causes navigation"/>
+  <testcase name="navigation services tests determine if route change causes navigation navigates when parameters removed" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).navigation services tests determine if route change causes navigation"/>
+  <testcase name="navigation services tests determine if route change causes navigation does not navigate when non routing parameters added" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).navigation services tests determine if route change causes navigation"/>
+  <testcase name="navigation services tests determine if route change causes navigation does not navigate when non routing parameters changed" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).navigation services tests determine if route change causes navigation"/>
+  <testcase name="navigation services tests determine if route change causes navigation does not navigate when non routing parameters removed" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).navigation services tests determine if route change causes navigation"/>
+  <testcase name="notification tests global notifications crud should allow to add, get and remove notifications" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).notification tests global notifications crud"/>
+  <testcase name="serverValidationManager tests managing field validation errors can add and retrieve field validation errors" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing field validation errors"/>
+  <testcase name="serverValidationManager tests managing field validation errors will return null for a non-existing field error" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing field validation errors"/>
+  <testcase name="serverValidationManager tests managing field validation errors detects if a field error exists" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing field validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can retrieve property validation errors for a sub field" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can retrieve property validation errors for a sub field for culture" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can retrieve property validation errors for a sub field for segments" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can retrieve property validation errors for a sub field for culture with segments" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can add a property errors with multiple sub fields and it the first will be retreived with only the property alias" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors will return null for a non-existing property error" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors detects if a property error exists" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can remove a property error with a sub field specified" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing property validation errors can remove a property error and all sub field errors by specifying only the property" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing property validation errors"/>
+  <testcase name="serverValidationManager tests managing culture validation errors can retrieve culture validation errors" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing culture validation errors"/>
+  <testcase name="serverValidationManager tests managing variant validation errors can retrieve variant validation errors" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests managing variant validation errors"/>
+  <testcase name="serverValidationManager tests validation error subscriptions can subscribe to a field error" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests validation error subscriptions"/>
+  <testcase name="serverValidationManager tests validation error subscriptions can get the field subscription callbacks" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests validation error subscriptions"/>
+  <testcase name="serverValidationManager tests validation error subscriptions can subscribe to a property error for both a property and its sub field" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests validation error subscriptions"/>
+  <testcase name="serverValidationManager tests validation error subscriptions can subscribe to a culture error for both a property and its sub field" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).serverValidationManager tests validation error subscriptions"/>
+  <testcase name="service: templateHelper getInsertDictionarySnippet should return the snippet for inserting a dictionary item" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getInsertDictionarySnippet"/>
+  <testcase name="service: templateHelper getInsertPartialSnippet should return the snippet for inserting a partial from the root" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getInsertPartialSnippet"/>
+  <testcase name="service: templateHelper getInsertPartialSnippet should return the snippet for inserting a partial from a folder" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getInsertPartialSnippet"/>
+  <testcase name="service: templateHelper getInsertPartialSnippet should return the snippet for inserting a partial from a nested folder" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getInsertPartialSnippet"/>
+  <testcase name="service: templateHelper getInsertPartialSnippet should return the snippet for inserting a partial from a folder with spaces in its name" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getInsertPartialSnippet"/>
+  <testcase name="service: templateHelper getQuerySnippet should return the snippet for a query" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getQuerySnippet"/>
+  <testcase name="service: templateHelper getRenderBodySnippet should return the snippet for render body" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getRenderBodySnippet"/>
+  <testcase name="service: templateHelper getRenderSectionSnippet should return the snippet for defining a section" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getRenderSectionSnippet"/>
+  <testcase name="service: templateHelper getRenderSectionSnippet should return the snippet for defining a mandatory section" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getRenderSectionSnippet"/>
+  <testcase name="service: templateHelper getAddSectionSnippet should return the snippet for implementing a section" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).service: templateHelper getAddSectionSnippet"/>
+  <testcase name="tree service tests tree cache does not cache with no args" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache does not cache with no cacheKey" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache caches by section with cache key" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache caches by default content section with cache key" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache removes by section with cache key" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache removes cache by key regardless of section" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache removes all section cache regardless of key" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache removes all cache" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache clears cache by key using a filter that returns null" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache removes cache by key using a filter" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests tree cache removes cache children for a parent id specified" time="0.007" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests tree cache"/>
+  <testcase name="tree service tests lookup plugin based trees can find a plugin based tree" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests lookup plugin based trees"/>
+  <testcase name="tree service tests lookup plugin based trees returns undefined for a not found tree" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests lookup plugin based trees"/>
+  <testcase name="tree service tests Remove existing nodes hasChildren has to be updated on parent" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests Remove existing nodes"/>
+  <testcase name="tree service tests query existing node structure of the tree can get a descendant node with string id" time="0.006" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree can get a descendant node" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree returns null for a descendant node that doesnt exist" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree can get a child node" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree returns null for a child node that doesnt exist" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree returns null for a descendant node that doesnt exist" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree can get the root node from a child node" time="0.005" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="tree service tests query existing node structure of the tree can get the root node from the root node" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).tree service tests query existing node structure of the tree"/>
+  <testcase name="udiParser tests Parse UDI can parse a valid document UDI" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).udiParser tests Parse UDI"/>
+  <testcase name="udiParser tests Parse UDI can parse a valid media UDI" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).udiParser tests Parse UDI"/>
+  <testcase name="udiParser tests Parse UDI returns the full UDI when calling toString() on the returned value" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).udiParser tests Parse UDI"/>
+  <testcase name="udiParser tests Parse UDI can parse an open UDI" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).udiParser tests Parse UDI"/>
+  <testcase name="udiParser tests Parse UDI returns null if the input is invalid" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).udiParser tests Parse UDI"/>
+  <testcase name="umbDataFormatter service tests formatting GET content data will set the same invariant property instance reference between all variants" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbDataFormatter service tests formatting GET content data"/>
+  <testcase name="image helper tests basic utility methods return correct values detects an image based file" time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0).image helper tests basic utility methods return correct values"/>
+  <testcase name="model mapper tests maps basic entity can map content object" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).model mapper tests maps basic entity"/>
+  <testcase name="model mapper tests maps basic entity throws when info is missing" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).model mapper tests maps basic entity"/>
+  <testcase name="model mapper tests maps basic entity can map the minimum props" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).model mapper tests maps basic entity"/>
+  <testcase name="umbRequestHelper tests formatting Urls can create a query string from name value pairs" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbRequestHelper tests formatting Urls"/>
+  <testcase name="umbRequestHelper tests formatting Urls can create a url based on server vars" time="0.008" classname="PhantomJS_2_1_1_(Windows_8_0_0).umbRequestHelper tests formatting Urls"/>
+  <testcase name="Utilities fromJson should deserialize json as object" time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities fromJson"/>
+  <testcase name="Utilities fromJson should return object as object" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities fromJson"/>
+  <testcase name="Utilities toJson should delegate to JSON.stringify" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should format objects pretty" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should not serialize properties starting with $$" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should serialize properties starting with $" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should not serialize $window object" time="0.002" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should not serialize $document object" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should not serialize scope instances" time="0.003" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <testcase name="Utilities toJson should serialize undefined as undefined" time="0" classname="PhantomJS_2_1_1_(Windows_8_0_0).Utilities toJson"/>
+  <system-out>
+    <![CDATA[PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'test'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'test…'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'test …'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'scena…'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'scenarios …'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'test'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'test '
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'scena'
+,PhantomJS 2.1.1 (Windows 8.0.0) LOG: 'scenarios '
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

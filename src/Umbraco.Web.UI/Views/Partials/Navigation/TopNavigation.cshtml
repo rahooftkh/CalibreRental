@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using Umbraco.Web;
+@{
+    var site = Model.Root();
+    var selection = site.Children.Where(x => x.IsVisible());
+}
+<!-- comment out the following line if you want to remove the root node name from the top navigation -->
+<li class="nav-item">
+    <a class="nav-link link text-white display-4" href="@site.Url">@site.Name</a>
+    </li>
+@foreach (var item in selection)
+{
+<li class="nav-item">
+    <a class="nav-link link text-white display-4" href="@item.Url">@item.Name</a>
+    </li>
+}
