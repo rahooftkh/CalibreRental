@@ -44,7 +44,7 @@
     "spectrum-colorpicker": "1.8.0",
     "tinymce": "4.9.10",
     "typeahead.js": "0.11.1",
-    "underscore": "1.9.1"
+    "underscore": "1.12.1"
   },
   "devDependencies": {
     "@babel/core": "7.6.4",
